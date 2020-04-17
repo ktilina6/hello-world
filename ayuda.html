@@ -7,6 +7,7 @@
     </div>
     <button type=”submit”>Pay</button>
   </form>
+<script>
    POS.setEnvironment("test");
    POS.initSecureFields('card-secure-fields');
      document.getElementById('payment-form').addEventListener('submit', function(event) {
@@ -20,3 +21,4 @@
 
       });
     });
+</script>
